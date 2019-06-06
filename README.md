@@ -1,5 +1,14 @@
 # credit-api
 
+## Variaveis de ambiente
+
+File: `.env`
+
+```
+NODE_ENV=devolepment
+PORT=expressPort
+```
+
 ## Métodos HTTP
 
 Os métodos HTTP devem ser utilizados de acordo com a definição padrão do [HTTP/1.1](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html).
