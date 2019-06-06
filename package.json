@@ -1,0 +1,28 @@
+{
+  "name": "credit-api",
+  "version": "1.0.0",
+  "description": "Os métodos HTTP devem ser utilizados de acordo com a definição padrão do [HTTP/1.1](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html).\r Segue um exemplo de como os métodos HTTP devem ser utilizados nas operações de criar, recuperar, atualizar e deletar em um determinado contexto:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canex-br/credit-api.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/canex-br/credit-api/issues"
+  },
+  "homepage": "https://github.com/canex-br/credit-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
