@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const environment = require('./config').environment;
+const environment = require('./config/environment');
 
 const app = express();
 
@@ -13,4 +13,4 @@ app.get('/', async (req, res, next) => {
   res.json({ "status": "OK!" });
 });
 
-app.listen(process.env.PORT);
+app.listen(environment.expressPort);
