@@ -7,6 +7,12 @@ File: `.env`
 ```
 NODE_ENV=devolepment
 PORT=expressPort
+DB_USER=user
+DB_PASS=password
+DB_NAME=database
+DB_HOST=host
+DB_DIALECT=mysql
+DB_OPERATORS_ALIASES=false
 ```
 
 ## Métodos HTTP
